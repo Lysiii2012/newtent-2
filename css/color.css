@@ -1,0 +1,52 @@
+/****************header*********************/
+button{
+    background: #FAA41E;
+}
+.active a{
+    color: #FAA41E;
+}
+header a{
+    color: black;
+}
+/****************центральная часть main *****************/
+.main-section p {
+    color: #23346B;
+    font-size: 1rem;
+}
+
+h2{
+    color: #23346B;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.container {
+    background: linear-gradient(180deg, rgba(35, 52, 107, 0.10) 0%, rgba(35, 52, 107, 0.00) 100%);
+}
+h2{   /***карточка**/
+    color: #000;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 500;
+}
+h5{   /********ценв на сайте *****/
+    color: #23346B;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  span{   /*******old prise******/
+    color: #000;
+    font-size: .9rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: line-through;
+    opacity: 0.30000001192092896;
+
+  }
+  
