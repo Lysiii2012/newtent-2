@@ -68,14 +68,26 @@ $(document).ready(function() {
     
     $(this).addClass("active");
     
-    // Удаляем класс "active" у всех div
     $("div[class*='product-item-']").removeClass("active");
     
-    // Добавляем класс "active" к соответствующему div с классом, совпадающим с идентификатором
     $("div." + id).addClass("active");
   });
 });
 
+/***********modal */
+$(".by-now").click(function(){
+  $(".modal-pop-up").addClass("visible");
+});
+
+$(".close-modal, .btn-by-now-modal").click(function(){
+  $(".modal-pop-up").removeClass("visible");
+});
+
+$(document).click(function(event) {
+  if (!$(event.target).closest(".modal,.by-now,.pop-up").length) {
+    $(".modal-pop-up").removeClass("visible");
+  }
+});
 
 
 
